@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    color: #212529;
+    font-family: Consolas, monaco, monospace;
+}
+#header img {
+    width: 200px;
+    object-fit:cover;
+}
+
+h1, h2, p {
+    font-family: Calibri;
+}
+
+.navbar {
+    font-family: Consolas;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link.active {
+    color: skyblue !important;
+}
+
+.nav-link:hover {
+    color: skyblue !important;
+}
+
+.bg-light2 {
+    background-color: #0E8EA8;
+    
+}
+
+.navbar-nav .nav-link {
+    background-color: #0E8EA8;
+    color: #fff;
+}
+
+.dropdown-menu {
+    padding: 0 !important;
+}
+
+.dropdown-menu .dropdown-item {
+    background-color: #83D1E1;
+    color: #212529;
+}
+
+/*
+    TABLE STYLING
+*/
+.table-bordered tr th {
+    background-color: #0E8EA8;
+    color: #fff;
+    font-family: Consolas;
+}
+
+
+table {
+    width:100%;
+}
+
+input {
+    width: 100%;
+}
+
+#staffTable {
+    border-color: #212529;
+    border-width: thin;
+    font-family: Calibri;
+    background-color: #83D1E1;
+    color: #212529
+}
+
+.selected {
+    background-color: #0094b1;
+}
+
+#scheduleTable {
+    border-color: #212529;
+    border-width: thin;
+    font-family: Calibri;
+    background-color: #83D1E1;
+    color: #212529
+}
+
+#deliveryTable {
+    border-color: #212529;
+    border-width: thin;
+    font-family: Calibri;
+    background-color: #83D1E1;
+    color: #212529
+}
+
+.selectedDriver {
+    background-color: #0094b1;
+}
+
+/*
+STAFF BOARD
+*/
+#staff {
+    margin: auto;
+    max-width: 100%;
+}
+
+#outbutton {
+    float: left;
+    color: #fff;
+    background-color: #dc3545;
+    min-width: 5%;
+    font-family: Consolas;
+}
+
+#outbutton:hover {
+	color: #212529;
+	background: rgba(0,0,0,0);
+}
+
+#inbutton {
+    float: right;
+    color: #fff;
+    background-color: #198754;
+    min-width: 5%;
+    font-family: Consolas;
+}
+
+#inbutton:hover {
+	color: #212529;
+	background: rgba(0,0,0,0);
+}
+
+/*
+SCHEDULE BOARD
+*/
+
+#scheduleDelivery {
+    margin: auto;
+    margin-top: 100px;
+    max-width: 100%;
+    font-family: Consolas;
+}
+
+#addbutton {
+    float: right;
+    color: #fff;
+    background-color: #198754;
+    min-width: 5%;
+    font-family: Consolas;
+
+}
+
+#addbutton:hover {
+	color: #212529;
+	background: rgba(0,0,0,0);
+}
+
+/*
+DELIVERY BOARD
+*/
+
+#delivery {
+    margin: auto;
+    max-width: 100%
+}
+
+#clearbutton {
+    float: right;
+    color: #fff;
+    background-color: #dc3545;
+    min-width: 5%;
+        font-family: Consolas;
+}
+
+#clearbutton:hover {
+	color: #212529;
+	background: rgba(0,0,0,0);
+}
+
+/*
+ACTIVE TIME STAMP
+*/
+
+#timeStamp {
+    color: #0E8EA8;
+    text-align: center;
+    font-size: x-large;
+}
